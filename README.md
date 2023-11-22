@@ -19,5 +19,21 @@ I created a simple django web base project to desmonstrate how to configure djan
     
 
 - Starting the django web service
-    - python manage.py runserver
+    - python manage.py runserver 
+
+- Setting Up Docker 
+    - Deactivate Virtual Env
+        - exit 
+    - Creating a docker file 
+        - touch Dockerfile  
+
+- Setting Up Docker-compose
+    - Create a docker compose file
+        - touch docker-compose.yml 
+    - Start the Docker container 
+        - docker compose up 
+    - Stop the Docker containter
+        - docker compose down
+
+    
         
